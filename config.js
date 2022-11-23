@@ -17,7 +17,7 @@ module.exports = {
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	debug: false, //- Debug mode
 	cookieSecret: "is epic", //- Cookie Secret
-	website: "http://localhost:4200", //- without the / at the end
+	website: "http://localhost", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
