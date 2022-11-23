@@ -16,19 +16,19 @@ module.exports = {
 	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	debug: false, //- Debug mode
-	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
+	cookieSecret: "is epic", //- Cookie Secret
 	website: "http://localhost:4200", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "node2.lewdhutao.tech", //- The host name or IP of the lavalink server.
-			port: 443, // The port that lavalink is listening to. This must be a number!
+			host: "node1.lewdhutao.tech", //- The host name or IP of the lavalink server.
+			port: 1183, // The port that lavalink is listening to. This must be a number!
 			password: "lewdhutao", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
+			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
