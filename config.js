@@ -4,7 +4,7 @@ module.exports = {
 	token: process.env.token || "", //- Bot's Token
 	clientId: process.env.clientId || "", //- ID of the bot
 	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
-	port: 4200, //- Port of the API and Dashboard
+	port: process.env.PORT || 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -17,7 +17,7 @@ module.exports = {
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	debug: false, //- Debug mode
 	cookieSecret: "is epic", //- Cookie Secret
-	website: "http://localhost", //- without the / at the end
+	website: "http://localhost:4200", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
